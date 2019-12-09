@@ -8,17 +8,23 @@
 </head>
 
 <body>
-    `<h1>
+    <header>
+    <h1>
             HTML Essential Training
     </h1>
     <h2>
       Structuring Pages
     </h2>
+    <nav>
     <p><a href="#" title="Introduction to HTML">Introduction to HTML</a></p>
     <p><a href="#" title="HTML syntax">HTML syntax</a></p>
     <p><a href="#" title="Creating links">Creating links</a></p>
     <p><a href="#" title="HTML Reference">HTML reference</a></p>
     <p><a href="#" title="Next steps">Next steps</a></p>
+    </nav>
+    </header>
+    <section>
+    <article>    
     <h3>
        Conveying meaning through structure
     </h3>
@@ -44,6 +50,8 @@
     <p>Although some of these elements are very specific, in many cases which element you'll use and how you'll
         structure them is very much a judgment call. Make sure, however, that your finished structure represents the
         desired document outline. </p>
+    </article>
+    <article>
     <h3>
             Document outlines
     </h3>
@@ -60,6 +68,8 @@
         using the new sectioning and semantic tags properly. </p>
     <p>It is still considered to be a best practice to use heading tags to establish the document outline. Mozilla has a
         fantastic article on sections and outlines in HTML documents that I strongly recommend reading.</p>
+    </article>
+    <article>
     <h3>
         W3C Warning
     </h3>
@@ -69,6 +79,8 @@
         technology user agents, although the algorithm is implemented in other software such as conformance checkers.
         Therefore the outline algorithm cannot be relied upon to convey document structure to users. Authors are advised
         to use heading rank (h1-h6) to convey document structure.</blockquote>
+    </article>
+    <article>
     <h3>
             WAI-ARIA Roles
     </h3>
@@ -79,7 +91,11 @@
         helps assistive devices understand what the content is, how it relates to other content, and how the content can
         be interacted with. The W3C has a fantastic resource on how WAI-ARIA works and how it should be used with HTML.
     </p>
+</article>
+    </section>
+    <footer>
     <p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+</footer>
 </body>
 
 </html>
