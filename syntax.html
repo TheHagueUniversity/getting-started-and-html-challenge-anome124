@@ -8,21 +8,27 @@
 </head>
 
 <body>
+  <header>
   <h1>
       HTML Essential Training
   </h1> 
   <h2>
       HTML Syntax
   </h2>
+  <nav>
   <p><a href="#" title="Introduction to HTML">Introduction to HTML</a></p>
   <p><a href="#" title="HTML syntax">HTML syntax</a></p>
   <p><a href="#" title="Creating links">Creating links</a></p>
   <p><a href="#" title="HTML Reference">HTML reference</a></p>
   <p><a href="#" title="Next steps">Next steps</a></p>
+</nav>
+</header>
+<section>
   <p>Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension
     about learning it. Thankfully, HTML syntax is relatively simple and easy to learn. Most people can learn the basics
     of HTML and begin coding it within the same day.</p>
- <h3>
+ <article>
+    <h3>
     A markup language
  </h3> 
   <p>HTML is a markup language. That means that content on the page is &ldquo;marked up&rdquo; by tags which identify
@@ -36,6 +42,8 @@
     Although most elements require an opening and a closing tag, the closing tag is optional for some elements and not
     required at all for others. While there are exceptions to the rule, for the most part any element that contains
     content inside the opening and closing tags also requires a closing tag.</p>
+    </article>
+    <article>
   <h3>
       Basic document structure
   </h3>
@@ -56,6 +64,8 @@
      &lt;/body&gt;
 &lt;/html&gt;
   </code></pre>
+</article>
+<article>
   <h3>
       DOCTYPES
   </h3>
@@ -69,7 +79,9 @@
     a doctype declaration. For more information on doctypes, and the history behind them, check out Mark Pilgrim&rsquo;s
     excellent section on doctypes from his <em>Dive Into HTML5</em> book. Here are some of the more common HTML
     doctypes:</p>
-  <h4>
+  </article>
+  <article>
+    <h4>
       HTML 4.0 transitional
   </h4>
   <pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;</code></pre>
@@ -82,6 +94,8 @@
   </h4>
   <pre><code>&lt;!DOCTYPE HTML&gt;</code>
 </pre>
+</article>
+<article>
   <h3>
       Element attributes
   </h3>
@@ -90,6 +104,8 @@
     parts, the <strong>name</strong> and <strong>value</strong>. Although the syntax varies based on the version of HTML
     you&rsquo;re using, it&rsquo;s standard practice to put values within quotation marks.</p>
   <pre><code>&lt;h1 class=&rdquo;headline&rdquo;&gt;Article&rsquo;s main headline&lt;/h1&gt;</code></pre>
+</article>
+<article>
   <h3>
       Replaced elements
   </h3>
@@ -97,8 +113,11 @@
     video file. These elements are referred to as <strong>replaced elements</strong> and usually have a predetermined
     width or height. In some cases the elements will have attributes that tell the browser where to find an external
     resource like an image or video.</p>
+  </article>
   <pre><code>&lt;img src=&ldquo;photo.jpg&rdquo; alt=&ldquo;my awesome photo&rdquo;&gt;&nbsp;</code></pre>
-  <h3>
+  
+<article>
+<h3>
       Code structure
   </h3>
   <p>HTML documents create structure by nesting elements inside of one another. You might group a section of page
@@ -123,7 +142,9 @@
     fairly easy to pick up. You should be prepared, however, for it to take some time before you fully understand all of
     the rules surrounding nesting elements. One way to making sure to your code is structured properly is to validate
     your code through a service like the W3C&rsquo;s Markup Validation service.</p>
- <h3>
+  </article>
+  <article>
+    <h3>
     Commenting code
  </h3> 
   <p>Often it is helpful to leave notes to yourself or other developers within your code. Perhaps you want to remind
@@ -131,10 +152,14 @@
     you&rsquo;ll use comments. Comments should appear on their own line, and typically appear directly before or after
     the code they refer to. Comments begin with a left-angle bracket, an exclamation point, and two hyphens (&lt;!--)
     and end with two hyphens followed by a right-angle bracket (--&gt;).</p>
-  <h3>
+  </article>
+  <article>
+    <h3>
       Comment syntax:
   </h3>
   <pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+</article>
+<article>
   <h3>
       Using special characters
   </h3>
@@ -148,7 +173,11 @@
     HTML specifications, although the format for them can be a bit hard to read. You can also find a useful list of
     character entities on the <a href="reference.html#named">HTML Reference</a> page, and a more comprehensive list on
     Wikipedia.</p>
+    </article>
+    </section>
+    <footer>
   <p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+</footer>
 </body>
 
 </html>
